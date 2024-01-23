@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">project_perpus</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wind_breaker">wind Breaker</string>
+    <string name="deskripsi_windbreaker">Jay adalah presiden siswa SMA Sunny. Dia tidak hanya seorang siswa yang cerdas tetapi seorang pengendara sepeda yang memiliki teknik tingkat tinggi.</string>
+    <string name="chapter">Ch. 414 11 hours ago</string>
+    <string name="judul_komik">Wind Breaker</string>
+</resources>

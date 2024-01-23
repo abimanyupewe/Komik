@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149373918200",
+    "project_id": "perpus-app-bceda",
+    "storage_bucket": "perpus-app-bceda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149373918200:android:050c7ef68dcb51eb40140d",
+        "android_client_info": {
+          "package_name": "com.example.project_perpus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149373918200-ndvm59a3to5f1ir1vpjceirh7j23guv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg9fzMzAUhLePuf0o2qJ0CXijnqlQWCpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149373918200-ndvm59a3to5f1ir1vpjceirh7j23guv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

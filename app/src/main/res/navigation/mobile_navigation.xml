@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_beranda">
+
+
+    <fragment
+        android:id="@+id/berandaFragment"
+        android:name="com.example.project_perpus.BerandaFragment"
+        android:label="fragment_beranda"
+        tools:layout="@layout/fragment_beranda" >
+        <action
+            android:id="@+id/action_berandaFragment_to_cariFragment"
+            app:destination="@id/cariFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cariFragment"
+        android:name="com.example.project_perpus.CariFragment"
+        android:label="fragment_cari"
+        tools:layout="@layout/fragment_cari" >
+        <action
+            android:id="@+id/action_cariFragment_to_bookmarkFragment"
+            app:destination="@id/bookmarkFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.example.project_perpus.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_bookmarkFragment_to_profilFragment"
+            app:destination="@id/profilFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.project_perpus.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" >
+        <action
+            android:id="@+id/action_profilFragment_to_editProfilFragment"
+            app:destination="@id/editProfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfilFragment"
+        android:name="com.example.project_perpus.EditProfilFragment"
+        android:label="fragment_edit_profil"
+        tools:layout="@layout/fragment_edit_profil" />
+
+
+</navigation>

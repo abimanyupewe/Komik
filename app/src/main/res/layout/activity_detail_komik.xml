@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu_hitam"
+    android:orientation="vertical"
+    tools:context=".Detail_komik">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--detail komik-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="242dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/abu_putih"
+                     />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="242dp"
+                    android:src="@drawable/wb_tampilan" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/wind_breaker"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/deskripsi_windbreaker"
+                        android:textSize="20dp"
+                        android:textColor="@color/color_abu"/>
+
+                </LinearLayout>
+
+                <!--info chapter-->
+
+                <Button
+                    android:id="@+id/btn_chapter_awal"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="25dp"
+                    android:backgroundTint="@color/abu_putih"
+                    android:text="Awal : Chapter 00 - prolog"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_chapter_terbaru"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="25dp"
+                    android:backgroundTint="@color/abu_putih"
+                    android:text="Terbaru : Chapter 422"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="220dp"
+                android:layout_height="360dp"
+                android:layout_gravity="center"
+                android:src="@drawable/wb_jay" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/shape_info_komik"
+                        android:paddingLeft="10dp"
+                        android:text="Judul"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/shape_info_komik"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:textSize="20dp"
+                        android:text="Wind Breaker"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/shape_info_komik"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:textSize="20dp"
+                        android:text="Jenis Komik"/>
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/shape_info_komik"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:textSize="20dp"
+                        android:text="Manhwa"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/shape_info_komik"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:textSize="20dp"
+                        android:text="Genre"/>
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/shape_info_komik"
+                        android:layout_width="230dp"
+                        android:layout_height="30dp"
+                        android:textSize="20dp"
+                        android:text="Sports, Action, Drama"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_tambah_koleksi"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/abu_putih"
+                android:text="Koleksi Baru"
+                android:drawableLeft="@drawable/koleksi_buku"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="350dp"
+                android:layout_height="500dp">
+
+                <androidx.core.widget.NestedScrollView
+                    android:background="@drawable/shape_info_komik"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter 426"/>
+
+
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

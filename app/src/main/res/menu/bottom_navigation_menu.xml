@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemBeranda"
+        android:icon="@drawable/beranda"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/itemCari"
+        android:icon="@drawable/cari"
+        android:title="Cari" />
+    <item
+        android:id="@+id/itemBookmark"
+        android:icon="@drawable/koleksi"
+        android:title="Bookmark" />
+    <item
+        android:id="@+id/itemProfil"
+        android:icon="@drawable/profil"
+        android:title="Profil" />
+</menu>
